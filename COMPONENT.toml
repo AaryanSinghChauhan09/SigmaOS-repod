@@ -3,7 +3,7 @@ name = "SigmaOS-repod"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "repod component"
+description = "SigmaOS repod component (Arch Linux inspired)"
 upstream = []
 
 [contract]
