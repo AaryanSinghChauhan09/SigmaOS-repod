@@ -1,8 +1,15 @@
 [package]
-name = "sigmaos-repod"
+name = "SigmaOS-repod"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-description = "Repository mirror sync daemon — SigmaOS component inspired by Arch Linux infrastructure."
+license = "Apache-2.0"
+description = "SigmaOS repod component"
+
+[lib]
+name = "repod"
+path = "src/lib.rs"
 
 [dependencies]
+thiserror = "1"
+
+[dev-dependencies]
